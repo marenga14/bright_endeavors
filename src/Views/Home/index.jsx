@@ -126,7 +126,7 @@ const Home = () => {
             <Grid item xs={12} md={12}>
               <OurProgram
                 title="BEN STUDIO DESIGN"
-                img="public/assets/Art Fun.jpg"
+                img="/assets/Art Fun.jpg"
                 discription1="To be successful in the 21st century and beyond, 
                 students need to develop skills that help them think critically to be innovative solution-finders.  
                 "
