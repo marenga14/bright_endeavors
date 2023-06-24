@@ -34,14 +34,12 @@ function App() {
         <CssBaseline />
 
         <div className="app">
-          <Routes>
-            <Route path="/" element={<Home />} />
-          </Routes>
-          <SideBar />
+          {/* <SideBar /> */}
           <main className="content">
-            <HeadTopBar />
-            <Header />
+            {/* <HeadTopBar /> */}
+            {/* <Header /> */}
             <Routes>
+              <Route path="/" element={<Home />} />
               <Route path="/home" element={<Dashboard />} />
               <Route path="/te" element={<Team />} />
               <Route path="/contacts" element={<Contacts />} />

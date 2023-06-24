@@ -47,7 +47,7 @@ const Home = () => {
                   borderRadius: "16px",
                 }}
                 type="logo"
-                src="src/assets/BEN-logo-2.webp"
+                src="/assets/BEN-logo-2.webp"
               ></img>
             </div>
             <div className="menu-item-position text-white">
@@ -113,7 +113,7 @@ const Home = () => {
           <Grid container spacing={1}>
             <Grid item xs={12} md={12}>
               <OurProgram
-                img="src/assets/Screen-Shot-2018-07-08-at-09_13_edited.webp"
+                img="public/assets/Screen-Shot-2018-07-08-at-09_13_edited.webp"
                 title="CODING   WORKSHOPS"
                 discription1=" Students will sharpen their abilities to determine cause and effect relationships, construct explanations and design solutions.  The BEN Coding Workshop provides screen-free, foundational skills needed to make the best of our Robotics & Engineering classes, 
                 where children will apply their learning and creativity to programming."
@@ -126,7 +126,7 @@ const Home = () => {
             <Grid item xs={12} md={12}>
               <OurProgram
                 title="BEN STUDIO DESIGN"
-                img="src/assets/Art Fun.jpg"
+                img="public/assets/Art Fun.jpg"
                 discription1="To be successful in the 21st century and beyond, 
                 students need to develop skills that help them think critically to be innovative solution-finders.  
                 "
@@ -137,7 +137,7 @@ const Home = () => {
             <Grid item xs={12} md={12}>
               <OurProgram
                 title="ROBOTICS AND ENGINEERING"
-                img="src/assets/A girl is holding a robot lego dog that .webp"
+                img="public/assets/A girl is holding a robot lego dog that .webp"
                 discription1="Our Robotics & Engineering  classes introduce students to the  fundamentals of engineering and give them a deeper understanding of technology, programming, electronics and mechanical systems.   Skills in teamwork, computational thinking and problem solving are developed in a fun way as students work together to apply physics and engineering concepts to design 
                 and build working models with LEGO® STEAM Park and SNAP Circuits Jr., and LEGO® Early Simple Machines  
                 "
