@@ -1,0 +1,93 @@
+.card-cards {
+  color: black;
+  background-color: #f8f6ff;
+  transition-property: background-color, transform, opacity, translate;
+  transition-duration: 1s;
+  transition-delay: 0.1s;
+  &:hover {
+    transform: scale(1.01);
+    opacity: 0.8;
+    box-shadow: 1px 1px 1px rgba(66, 116, 60, 0.08),
+      0px 2px 4px rgba(50, 114, 76, 0.1),
+      inset 0px -14px 21px rgba(55, 89, 66, 0.08);
+    border-radius: 16px;
+    background-color: #f2feff;
+  }
+}
+
+.card-card {
+  color: rgba(0, 0, 0, 0.2);
+  background-color: black;
+  border-radius: 16px;
+  &:hover {
+    box-shadow: 1px 1px 1px rgba(66, 116, 60, 0.08),
+      0px 2px 4px rgba(50, 114, 76, 0.1),
+      inset 0px -14px 21px rgba(55, 89, 66, 0.08);
+
+    border-radius: 16px;
+  }
+}
+
+.image-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-text {
+  box-shadow: blue 2px;
+  transition-property: transition translate opacity border-left;
+  transition-duration: 1s;
+  // transition-delay: 2s;
+
+  &:hover {
+    // border-left: 4px solid grey;
+    border-radius: 16px;
+  }
+}
+
+.footer-class {
+  background-color: #05090c;
+  height: 40vh;
+  padding: 5%;
+}
+
+.ring {
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background: green;
+  animation-name: move-left-right, red-to-green;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate-reverse;
+
+  &:hover {
+    animation-play-state: paused;
+  }
+}
+
+@keyframes move-left-right {
+  0% {
+    transform: translateX(-20vh);
+  }
+
+  50% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: translateX(20vh);
+  }
+}
+
+@keyframes red-to-green {
+  from {
+    background-color: green;
+  }
+
+  to {
+    background-color: red;
+  }
+}

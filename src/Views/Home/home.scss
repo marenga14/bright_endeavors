@@ -1,0 +1,183 @@
+:root {
+  --duration: 3s;
+  --easing: cubic-bezier(0.5, 0, 0.5, 1);
+}
+
+.background-video-wrapper {
+  position: relative;
+  overflow: hidden;
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+
+.welcome-section {
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+}
+
+.values-section {
+  margin: 0px;
+  padding: 0px;
+  background-color: #141b2d;
+  height: 50vh;
+}
+
+.team-section {
+  background-color: #05090c;
+}
+.bar-box {
+  // margin-top: 1%;
+  // margin-left: 0.5%;
+  // margin-right: 0.5%;
+  // padding-top: 2px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: fit-content;
+  width: 100%;
+  display: flex;
+  // border-radius: 20px;
+  background-color: #141b2d;
+}
+
+.video-text {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.text {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  font-weight: lighter;
+  font-family: "Schoolbell", arial, serif;
+}
+
+.text-schoolNmame {
+  padding: 0;
+  margin: 0;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: sans-serif;
+}
+
+.margin-lr-auto {
+  letter-spacing: 1px;
+  padding: 20px;
+  font-weight: 700;
+  font-size: xx-large;
+  font-family: "DINEngschriftStd";
+}
+
+.inside-welcome-section {
+  padding: 10%;
+  border-radius: 16px;
+  animation-name: slide-up;
+  animation-duration: 2s;
+}
+
+.inside-welcome-section2 {
+  padding: 5%;
+  border-radius: 16px;
+}
+
+/* .value-style {
+  border-radius: 50%;
+  background-color: white;
+  padding: 10%;
+  height: 30%;
+  width: 30%;
+} */
+
+@keyframes slide-up {
+  from {
+    transform: translateY(100%);
+  }
+  to {
+    transform: none;
+  }
+}
+
+// .ring {
+//   background: #141b2d;
+//   border-radius: 16px;
+//   margin-top: 10px;
+//   margin-bottom: 10px;
+//   margin-left: 2%;
+//   margin-right: 2%;
+//   padding: 3%;
+
+//   &:hover {
+//     transform: scale(1);
+//     opacity: 0.9;
+//   }
+// }
+
+.patners-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60vh;
+  background-size: cover;
+  background-image: url(https://assets-global.website-files.com/5f973c970bea5548ad4287ef/62c8972c14a2ac3e1b1b87ad_cta-background.svg);
+}
+
+.team-row {
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 3%;
+  background-color: #f8f6ff;
+}
+
+.button-white {
+  border-radius: 8px;
+  font-size: x-large;
+  color: #141b2d;
+  font-weight: 600;
+  background-color: #f8f6ff;
+  transition-property: transform, opacity, color;
+  transition-duration: 0.8s;
+  transition-delay: 0.1s;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.5;
+    color: #141b2d;
+    transform: scale(1.1);
+  }
+  &:active {
+    transform: translateY(10%);
+  }
+}
+
+.h-text {
+  font-size: xx-large;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 700;
+}
+
+.program-sec {
+  border-radius: 16px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 2%;
+  margin-right: 2%;
+  padding: 3%;
+  // box-shadow: 1px 1px 1px rgba(112, 121, 110, 0.08),
+  //   0px 2px 4px rgba(97, 102, 99, 0.1),
+  //   inset 0px -14px 21px rgba(58, 46, 95, 0.08);
+  background-color: #05090c;
+}
