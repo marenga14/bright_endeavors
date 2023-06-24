@@ -108,7 +108,7 @@ const Card = (props) => {
               alignContent="center"
             >
               <img
-                src="public/assets/IMG-20221129-WA0003(1).jpg"
+                src="/assets/IMG-20221129-WA0003(1).jpg"
                 alt="mabata"
                 style={{
                   backgroundColor: "white",

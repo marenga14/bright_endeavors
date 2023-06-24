@@ -113,7 +113,7 @@ const Home = () => {
           <Grid container spacing={1}>
             <Grid item xs={12} md={12}>
               <OurProgram
-                img="public/assets/Screen-Shot-2018-07-08-at-09_13_edited.webp"
+                img="/assets/Screen-Shot-2018-07-08-at-09_13_edited.webp"
                 title="CODING   WORKSHOPS"
                 discription1=" Students will sharpen their abilities to determine cause and effect relationships, construct explanations and design solutions.  The BEN Coding Workshop provides screen-free, foundational skills needed to make the best of our Robotics & Engineering classes, 
                 where children will apply their learning and creativity to programming."
@@ -137,7 +137,7 @@ const Home = () => {
             <Grid item xs={12} md={12}>
               <OurProgram
                 title="ROBOTICS AND ENGINEERING"
-                img="public/assets/A girl is holding a robot lego dog that .webp"
+                img="/assets/A girl is holding a robot lego dog that .webp"
                 discription1="Our Robotics & Engineering  classes introduce students to the  fundamentals of engineering and give them a deeper understanding of technology, programming, electronics and mechanical systems.   Skills in teamwork, computational thinking and problem solving are developed in a fun way as students work together to apply physics and engineering concepts to design 
                 and build working models with LEGO® STEAM Park and SNAP Circuits Jr., and LEGO® Early Simple Machines  
                 "
@@ -148,7 +148,7 @@ const Home = () => {
             <Grid item xs={12} md={12}>
               <OurProgram
                 title="LIFE AND PHYSICAL SCIENCES"
-                img="src/assets/labcoats 1 (1).webp"
+                img="/assets/labcoats 1 (1).webp"
                 discription1="It’s never too early for children to be exposed to concepts related to health and medicine that could lead them on the path to becoming a healthcare professional.  Through experiments, hands-on activities and interactive demonstrations, children learn about  topics in Anatomy and Physiology, Cell Biology, Microbiology and Chemistry.
                 "
               />
